@@ -10,10 +10,11 @@ const pool = mysql.createPool({
     connectionLimit: 10,
     queueLimit: 0,
     connectTimeout: 10000,
-    ssl: {
+   /* ssl: {
   ca: Buffer.from(process.env.DB_SSL_CA_BASE64, 'base64').toString('utf-8'),
 
     }, 
+    */
     
 });
 
