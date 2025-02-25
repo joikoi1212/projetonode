@@ -15,7 +15,7 @@ export default function Home() {
   // Retorno da função para renderização do componente (HTML)
   return (
     <div className="flex items-center justify-center h-screen bg-gray-900 text-white">
-      <p>{messages.button?.loading || "Loading..."}</p>
+      <p>{messages.button?.loading || "LOADING..."}</p>
     </div>
   );
 }
